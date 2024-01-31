@@ -55,5 +55,3 @@ turtlee.right(45)
 turtlee.forward(50)
 
 my_screen.exitonclick()
-
-git test
