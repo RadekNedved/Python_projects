@@ -117,6 +117,14 @@ def eating() :
         randomX = random.randint(-200, 200)
         randomY = random.randint(-200, 200)
         apple.goto(randomX, randomY)
+
+        # apple generated on snakes body
+        for one_body_part in body_parts :
+            if one_body_part.distance(apple) < 20 :
+                randomX = random.randint(-200, 200)
+                randomY = random.randint(-200, 200)
+                apple.goto(randomX, randomY)
+
         global score
         score += 1
         global highest_score
