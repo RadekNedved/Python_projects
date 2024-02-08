@@ -144,6 +144,10 @@ screen.onkeypress(move_up, "w")
 screen.onkeypress(move_down, "s")
 screen.onkeypress(move_left, "a")
 screen.onkeypress(move_right, "d")
+screen.onkeypress(move_up, "Up")
+screen.onkeypress(move_down, "Down")
+screen.onkeypress(move_left, "Left")
+screen.onkeypress(move_right, "Right")
 
 # main cycle
 while True :
